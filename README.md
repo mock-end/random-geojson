@@ -27,7 +27,7 @@ randomGeoJson();
 // => "-29.52974, 24.52815, 3578.76351"
 ```
 
-By default includes `5` fixed digits after decimal, can specify otherwise.
+By default includes `5` fixed digits after decimal, can specify otherwise:
 
 ```js
 randomGeoJson(2)
