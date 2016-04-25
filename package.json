@@ -1,6 +1,6 @@
 {
   "name": "random-geojson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a random geojson.",
   "main": "index.js",
   "scripts": {
@@ -44,8 +44,8 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
-    "random-altitude": "^1.0.0",
-    "random-latitude": "^1.0.0",
-    "random-longitude": "^1.0.0"
+    "random-altitude": "^1.0.1",
+    "random-latitude": "^1.0.1",
+    "random-longitude": "^1.0.1"
   }
 }

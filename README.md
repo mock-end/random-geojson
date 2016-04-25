@@ -20,8 +20,10 @@ $ npm install --save random-geojson
 var randomGeoJson = require('random-geojson');
 
 // API
-// - randomGeoJson();
-// - randomGeoJson(fixed);
+// - randomGeoJson([options]);
+
+// options
+// - fixed
 
 randomGeoJson();
 // => "-29.52974, 24.52815, 3578.76351"
@@ -30,7 +32,7 @@ randomGeoJson();
 By default includes `5` fixed digits after decimal, can specify otherwise:
 
 ```js
-randomGeoJson(2)
+randomGeoJson({ fixed: 2 })
 // => "-49.16, 68.81, 239.58"
 ```
 

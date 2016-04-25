@@ -1,5 +1,3 @@
-'use strict';
-
 var expect = require('chai').expect;
 
 
@@ -9,7 +7,7 @@ describe('random-geojson: ', function () {
 
   it('common', function () {
 
-    var ret   = geojson(2);
+    var ret   = geojson({ fixed: 2 });
     var parts = ret.split(', ');
 
     expect(parts[0])
